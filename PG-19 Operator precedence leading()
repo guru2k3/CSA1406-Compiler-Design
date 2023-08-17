@@ -1,0 +1,16 @@
+enter the no: intermediate code:2
+enter the 3 address code:1:a=a+b
+enter the 3 address code:2:b=a*b
+the generated code is:
+ mov a,R0
+ add b,R0
+ mov R0,a
+
+ mov a,R1
+ mul b,R1
+ mov R1,b
+
+--------------------------------
+Process exited after 15.21 seconds with return value 0
+Press any key to continue . . .
+
