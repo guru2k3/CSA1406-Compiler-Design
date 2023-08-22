@@ -1,0 +1,14 @@
+#include<stdio.h> 
+#include<ctype.h>
+int main()
+{
+	char a[10]; 
+	int  i=1; 
+	printf("\n Enter an identifier:"); 
+	gets(a);
+	if(isalpha(a[0]))
+		printf("\nvalid identifier");		
+	else 
+		printf("\nNot valid identifier");
+
+}
